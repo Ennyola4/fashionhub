@@ -63,7 +63,7 @@ section{
     display: inline-block;
     padding: .8rem 3rem;
     font-size: 1.7rem;
-    border-radius: .5rem;
+    border-radius: 2rem;
     border: .2rem solid var(--black);
     cursor: pointer;
     background: none;
@@ -84,6 +84,7 @@ section{
     padding: 2rem 9%;
     background: #fff;
     box-shadow: var(--box-shadow);
+    margin-bottom: auto;
 }
 
 .header .logo{
@@ -181,7 +182,7 @@ section{
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     width: 35rem;
-    background: #fff;
+    background: whitesmoke;
 }
 
 .header .shopping-cart.active{
@@ -264,6 +265,9 @@ section{
     text-align: center;
 }
 
+
+
+
 .header .login-form.active{
     right: 2rem;
     transition: .4s linear;
@@ -302,9 +306,9 @@ section{
 .home{
 
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url(../images/banner.jpg) no-repeat;
+    align-items: right;
+    justify-content: right;
+    background: url(../images/banner5.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 20rem;
@@ -312,16 +316,48 @@ section{
 
 }
 
+.home2{
+
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    background: url(../images/banner2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 15rem;
+    padding-bottom: 25rem;
+    
+    
+
+}
+
 .home .content{
+
+    text-align: center;
+    width: 70rem;
+}
+
+
+.home2 .content2{
 
     text-align: center;
     width: 60rem;
 }
-
 .home .content h2{
 
     color: var(--black);
     font-size: 3rem;
+}
+
+.home2 .content2 h2{
+
+    color: var(--light-color);
+    font-size: 3rem;
+}
+
+.home2 .content2 h2 span{
+
+    color: var(--orange);
 }
 
 .home .content h2 span{
@@ -335,6 +371,8 @@ section{
     padding: 1rem 0;
     line-height: 1.6;
 }
+
+
 
 .features .box-container{
 
@@ -430,6 +468,18 @@ section{
 .products .product-slider .box .stars i{
     font-size: 1.7rem;
     color: var(--orange);
+}
+
+.products2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/banner3.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20rem;
+    padding-bottom: 27rem;
 }
 
  .categories .box-container {
